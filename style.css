@@ -1,11 +1,13 @@
 
 *::selection{
-	background-color: #ffd91f;
-	color: #000000;
+	background-color: #0a0600;
+	color: #Bbac93	;
 }
 
 h2{
+	font-family: 'Bebas Neue', sans-serif;
 	color: #ffd91f;
+	padding: 0 0 5% 0;
 }
 
 div{
@@ -14,7 +16,7 @@ div{
 
 .nav__ul{
 	display:flex;
-	object-fix:contain;
+	object-fit:contain;
 	justify-content: center;
 	padding: 0 0 5em 0;
 	text-decoration: none;
@@ -107,7 +109,7 @@ div{
 		height: 12.5em;
 		user-select: none;
 		display:flex;
-		object-fix:contain;
+		object-fit:contain;
 	    justify-content: center;
 		padding: 1.5em;
 }
@@ -190,14 +192,8 @@ a:link{
 	color: #ffffff;
 }
 
-.liricas{display: grid;
-	font-family: sans-serif;
-	text-align: center;
-	margin:0 auto;
-	font-size: 1em;
-	padding: 0 0 2% 0;
-	line-height: 1.5;
-	color: #ffffff;
+.menu_canciones{
+	padding: 0 0 5% 0;
 }
 
 .c-article__section-1{
@@ -284,56 +280,25 @@ a:link{
 	font-size: 0.6em;
 }
 
-.entre-canciones{
-	padding: 0 0 3% 0}
-
-.c-article__section-secret{
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	list-style: none;
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 1.3em;
-	color: black !important;
-	line-height: 1.5;
-	text-align:center;
-}
-
-
-.c-article__section-secret:hover{
-	cursor:url('accessories/rock.cur'), auto;
-	font-family: 'Bebas Neue', sans-serif;
-	line-height: 1.5;
-	margin:0 20%;
-	text-align:center;
-	transition: all .5s;
-	letter-spacing: .5em;
-	text-decoration: none;
-}
-
-
-
-
-.liricas-secret{
-	display: grid;
-	font-family: sans-serif;
-	text-align: center;
-	margin:0 auto;
-	font-size: 1em;
-	padding: 0 0 2% 0;
-	line-height: 1.5;
-	color: black;
-
-}
-
-
-.c-article__section-h2-secret{
-	display:block;
-	padding: 10px 10px 25px 10px;
-	color: #000000 !important;
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 2.5em;
-	line-height: 1.5;
+.flex-container{
+	display: flex;
 	justify-content: center;
-	text-align: center;
+	flex-flow: row wrap;
+	align-items: baseline;
+
+}
+
+.flex-item{
+	flex-basis: max-content;
+	background-color: #520000;
+	color: #ffffff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: left;
+	padding: 3%;
+	margin:  2%;
+
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	border: 2px solid #ffd91f;
 }
