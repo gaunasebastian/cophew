@@ -302,3 +302,11 @@ a:link{
 	-webkit-border-radius: 35px 0px 35px 0px;
 	border: 2px solid #ffd91f;
 }
+
+
+.video-box{
+	width:100%;
+	height: auto;
+	text-align: center;
+	background-color: #520000;
+}
