@@ -106,34 +106,49 @@ div{
 }
 
 .c-table{ 
-		display:flex;
-		padding:1em;
-		justify-content: center;
-		align-items: center;
+		display: grid;
+		grid-template-columns: 6px 6px 6px 6px;
+		grid-template-areas:
+		"a b c d"
+		"a b c d";
+		text-align: center;
+		justify-content: space-evenly;
+		padding: 1em;
 		text-decoration: none;
 }
 
-.table__head{	
-	color:#ffd91f;
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 10 vw;
-	letter-spacing: .05em;
-	line-height: 1.5;
-	padding:1vw;	
-	text-align: center;
-}
 
-.table__row{
-	display: block;
-	text-align: center;	
+.table__row_1{
+	grid-area: b;
 	font-family: 'Bebas Neue', sans-serif;
+	align-self: center;
+	justify-self: center;
 	font-size: 5 px;
 	letter-spacing: .05em;
 	line-height: 1.5;	
 	text-decoration: none;
 }
 
-.table__row:hover{
+.table__row_2{
+	grid-area: c;
+	font-family: 'Bebas Neue', sans-serif;
+	align-self: center;
+	justify-self: center;
+	font-size: 5 px;
+	letter-spacing: .05em;
+	line-height: 1.5;	
+	text-decoration: none;
+}
+
+.table__row_1:hover{
+	cursor:url('accessories/rock.cur'), auto;
+	transition: all .5s;
+	letter-spacing: .2em;
+	text-decoration: none;
+	;
+}
+
+.table__row_2:hover{
 	cursor:url('accessories/rock.cur'), auto;
 	transition: all .5s;
 	letter-spacing: .2em;
