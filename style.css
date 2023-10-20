@@ -67,7 +67,7 @@ div{
 .lateral{
 	display: flex;
     position: fixed;
-	align-items:center;
+	align-items: stretch;
 	text-align: center;
 	flex-basis: 50%;
 	flex-shrink: 0;
@@ -77,7 +77,7 @@ div{
 	right: 1.2%;
     top:0;
     user-select: none;
-	padding: 1% 1.6% 1% 1.6%;
+	padding: 2% 1.6% 2% 1.6%;
 
 }
 
