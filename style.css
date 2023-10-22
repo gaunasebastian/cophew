@@ -5,19 +5,30 @@
 }
 
 *::selection{
-	background-color: #0a0600;
-	color: #Bbac93;
+	background-color: #741f1f;
+	color: #ffd91f;
 }
 
+div{
+	background-color: #000000;
+}
 h2{
 	font-family: 'Bebas Neue', sans-serif;
 	color: #ffd91f;
 	padding: 0 0 5% 0;
 }
 
-div{
-	background-color: #000000;
+h3{
+	display:block;
+	padding: 40px 10px 0 10px;
+	color: #ffd91f;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 2.5em;
+	line-height: 1.5;
+	justify-content: center;
+	text-align: center;
 }
+
 
 a:link{
 	color: #ffffff;
@@ -38,8 +49,17 @@ a:visited{
 	cursor:url('accessories/rock.cur'), auto;
 }
 
+/*NAV*/
 
-/*DIVISIONES*/
+@media only screen and (max-width: 800px){
+	.nav__ul{
+		display:none;
+	}
+	.nav__ul-responsive{ 
+		display:flex;
+    	justify-content: center;} 
+}
+
 .nav__ul{
 	display:flex;
 	object-fit:contain;
@@ -49,7 +69,6 @@ a:visited{
 	border-width: 0px 0px 50px 0px;
 	border-color: #000000;
 	border-style: solid;
-
  }
 
 .nav__li{
@@ -82,14 +101,7 @@ a:visited{
 	padding:.5em 1em;
 }
 
-@media only screen and (max-width: 800px){
-	.nav__ul{
-		display:none;
-	}
-	.nav__ul-responsive{ 
-		display:flex;
-    	justify-content: center;} 
-}
+/*LATERAL*/
 
 .lateral{
 	display: flex;
@@ -106,14 +118,14 @@ a:visited{
     top:0;
     user-select: none;
 	padding: 2% 2.5%;
-
 }
-
 
 .lateral a{
 	font-family: 'Bebas Neue', sans-serif;
 	padding: 5%;
 }
+
+/*IMG*/
 
 .img-1{ 
 		background-image: url("accessories/gif1.gif");
@@ -126,6 +138,7 @@ a:visited{
 	    justify-content: center;
 }
 
+/*POST-IMG*/
 .c-table{ 
 		display: grid;
 		grid-template-columns: repeat(8, 0.6em);
@@ -136,7 +149,6 @@ a:visited{
 		justify-content: space-around;
 		padding: 40px;
 }
-
 
 .table__row_1{
 	grid-area: d;
@@ -158,37 +170,15 @@ a:visited{
 	line-height: 1.5;	
 }
 
+/*SPOTIFY-WEB-PLAYER*/
+
 .iframe-container{
 	display: flex;
 	margin: 0 auto;
     user-select: none;
 }
 
-
-.c-article__section-1{
-	display:block;
-	padding: 40px 10px 0 10px;
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 2.5em;
-	line-height: 1.5;
-	justify-content: center;
-	text-align: center;
-}
-
-
-.c-article__section-3{
-	display:block;
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 2.5em;
-	line-height: 1.5;
-	justify-content: center;
-	text-align: center;
-	list-style: none;
-}
-
-
-.li{list-style: none}
-
+/*LETRAS*/
 
 .c-article__section-2{
 	list-style: none;
@@ -199,14 +189,11 @@ a:visited{
 	color: #ffffff;
 	line-height: 1.5;
 	text-align:center;
-
 }
 
-.fix-espaciado{
-	padding:0 0 4% 0;
-}
+/*FOOTER*/
 
-.c-footer {
+footer{
 	background: #b62f09;
 	padding: 15px 2px 10px 2px;
 	font-family: sans-serif;
@@ -226,6 +213,9 @@ a:visited{
 	padding: 15px;
 	font-size: .7em;
 }
+
+
+
 
 .flex-container{
 	display: flex;
