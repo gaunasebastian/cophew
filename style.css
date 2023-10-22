@@ -12,6 +12,7 @@
 div{
 	background-color: #000000;
 }
+
 h2{
 	font-family: 'Bebas Neue', sans-serif;
 	color: #ffd91f;
@@ -29,6 +30,7 @@ h3{
 	text-align: center;
 }
 
+/*GENERAL LINKS SETTINGS*/
 
 a:link{
 	color: #ffffff;
@@ -50,15 +52,6 @@ a:visited{
 }
 
 /*NAV*/
-
-@media only screen and (max-width: 800px){
-	.nav__ul{
-		display:none;
-	}
-	.nav__ul-responsive{ 
-		display:flex;
-    	justify-content: center;} 
-}
 
 .nav__ul{
 	display:flex;
@@ -99,6 +92,15 @@ a:visited{
 	justify-content: center;
 	letter-spacing: .02em;
 	padding:.5em 1em;
+}
+
+@media only screen and (max-width: 800px){
+	.nav__ul{
+		display:none;
+	}
+	.nav__ul-responsive{ 
+		display:flex;
+    	justify-content: center;} 
 }
 
 /*LATERAL*/
@@ -215,7 +217,7 @@ footer{
 }
 
 
-
+/*FLEX*/
 
 .flex-container{
 	display: flex;
