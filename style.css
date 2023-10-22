@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 *::selection{
 	background-color: #0a0600;
 	color: #Bbac93	;
@@ -14,12 +16,36 @@ div{
 	list-style: none;
 }
 
+a:link{
+	color: #ffffff;
+	text-decoration: none;
+	cursor:url('accessories/rock.cur'), auto;
+}
+
+a:hover{
+	color: rgb(253, 255, 149);
+	text-decoration: none;
+	cursor:url('accessories/rock.cur'), auto;
+}
+
+a:visited{
+	color: #ffffff;
+	text-decoration: none;
+	cursor:url('accessories/rock.cur'), auto;
+}
+
+
+/*DIVISIONES*/
 .nav__ul{
 	display:flex;
 	object-fit:contain;
 	justify-content: center;
-	padding: 0 0 5em 0;
-	text-decoration: none;
+	padding: 0 0 2em 0;
+
+	border-width: 0px 0px 50px 0px;
+	border-color: #000000;
+	border-style: solid;
+
  }
 
 .nav__li{
@@ -30,27 +56,29 @@ div{
 	font-weight: 100;
 	border-radius: 0 0 4px 4px;
 	padding: 8px 12px 10px 12px;
-	text-decoration: none;
 }
 
 .nav__li:hover{
-	cursor:url('accessories/rock.cur'), auto;
-	color: #ffffff;
-	text-decoration: none;
+	color: rgb(253, 255, 149);
 }
 
 .nav__ul-responsive{
 	display:none;
-	background-color: #000000;
+	background-color: #b62f09;
 	text-align: center;
-	padding: 3% 2% 3% 2%;
+	padding: 3% 1% 1% 1%;
+
+	border-width: 0px 0px 50px 0px;
+	border-color: #000000;
+	border-style: solid;
 
 }
 
-.nav__li-responsive{display:flex;
+.nav__li-responsive{
+	display:flex;
 	text-align: center;
+	font-family: 'Rubik Moonrocks', cursive;
 	justify-content: center;
-	font-family: 'Bebas Neue', sans-serif;
 	letter-spacing: .15em;
 	padding:.5em 1em;
 }
@@ -73,8 +101,8 @@ div{
 	flex-shrink: 0;
 	flex-direction: column;
 	border-radius: 0 0 2% 2%;
-    background: rgb(33, 25, 104);
-	right: 1.2%;
+    background: rgb(96, 86, 187);
+	right: 5%;
     top:0;
     user-select: none;
 	padding: 2% 1.6% 2% 1.6%;
@@ -82,14 +110,11 @@ div{
 }
 
 .lateral a:hover{
-	cursor:url('accessories/rock.cur'), auto;
-	color: rgb(113, 168, 30);
-	text-decoration: none;
+	color: rgb(253, 255, 149);
 }
 
 .lateral a{
 	font-family: 'Bebas Neue', sans-serif;
-	text-decoration: none;
 	padding: 5%;
 }
 
@@ -102,7 +127,6 @@ div{
 		display:flex;
 		object-fit:contain;
 	    justify-content: center;
-		padding: 1.5em;
 }
 
 .c-table{ 
@@ -112,9 +136,8 @@ div{
 		"a b c d e f g h"
 		"a b c d e f g h";
 		text-align: center;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		padding: 1em;
-		text-decoration: none;
 }
 
 
@@ -126,7 +149,6 @@ div{
 	font-size: 5 px;
 	letter-spacing: .05em;
 	line-height: 1.5;	
-	text-decoration: none;
 }
 
 .table__row_2{
@@ -137,22 +159,19 @@ div{
 	font-size: 5 px;
 	letter-spacing: .05em;
 	line-height: 1.5;	
-	text-decoration: none;
 }
 
 .table__row_1:hover{
-	cursor:url('accessories/rock.cur'), auto;
+	color: rgb(253, 255, 149);
 	transition: all .5s;
-	letter-spacing: .2em;
-	text-decoration: none;
+	letter-spacing: .1em;
 	;
 }
 
 .table__row_2:hover{
-	cursor:url('accessories/rock.cur'), auto;
+	color: rgb(253, 255, 149);
 	transition: all .5s;
-	letter-spacing: .2em;
-	text-decoration: none;
+	letter-spacing: .1em;
 	;
 }
 
@@ -162,14 +181,6 @@ div{
     user-select: none;
 }
 
-
-a:visited{
-	color: #ffd91f;
-}
-
-a:link{
-	color: #ffd91f;
-}
 
 .c-article__section-1{
 	display:block;
@@ -197,10 +208,9 @@ a:link{
 
 
 .c-article__section-1 a:hover{
-	cursor:url('accessories/rock.cur'), auto;
+	color: rgb(253, 255, 149);
 	transition: all .5s;
 	letter-spacing: .5em;
-	text-decoration: none;
 	;
 }
 
@@ -208,19 +218,16 @@ a:link{
 	list-style: none;
 	display: block;
 	text-align: center;
-	text-decoration: none;
 	font-family: 'Bebas Neue', sans-serif;
 	font-size: 1.3em;
 	color: #ffffff;
 	line-height: 1.5;
 	text-align:center;
-	text-decoration: none;
 
 }
 
 .c-article__section-2:hover{
-	cursor:url('accessories/rock.cur'), auto;
-	color: #b62f09;}
+	color: rgb(253, 255, 149);}
 
 .fix-espaciado{
 	padding:0 0 4% 0;
@@ -230,36 +237,30 @@ a:link{
 	background: #b62f09;
 	padding: .8em 2em 1em 2em;
 	font-family: sans-serif;
-	text-decoration: none;
 	letter-spacing: 0.25em;
 	text-align:center;
 }
 
 .c-footer--1{
-	padding: 20px 20px 0px 20px;
+	padding: 20px 20px 10px 20px;
 	letter-spacing: 0.15em;
-	color: yellow;
+	color: aqua;
 	font-size: 0.6em;
-	font-
 }
 
 .c-footer--2{
 	display: grid;
-	cursor:url('accessories/rock.cur'), auto;
 	padding: .3% 3%;
 	font-size: 2em;
-	text-decoration: none;
 	letter-spacing: 0.15em;
 	color: #D8d6d4;
 	font-size: 0.6em;
 }
 
 .c-footer--2:hover{
-	cursor:url('accessories/rock.cur'), auto;
 	font-size: 2em;
-	text-decoration: none;
 	letter-spacing: 0.15em;
-	color: #ffffff;
+	color: rgb(253, 255, 149);
 	font-size: 0.6em;
 }
 
