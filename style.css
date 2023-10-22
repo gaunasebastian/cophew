@@ -24,8 +24,9 @@ a:link{
 
 a:hover{
 	color: rgb(253, 255, 149);
-	text-decoration: none;
+	text-decoration: wavy underline rgb(253, 255, 149);
 	cursor:url('accessories/rock.cur'), auto;
+	transition: .2s,color .2s,background-color 0s .5s;
 }
 
 a:visited{
