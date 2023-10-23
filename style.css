@@ -49,9 +49,8 @@ a:link{
 }
 
 a:hover{
-	color: rgb(253, 255, 149);
+	color: #ffd91f;
 	cursor:url('accessories/rock.cur'), auto;
-	letter-spacing: .05em;
 	transition: all .2s;
 }
 
@@ -60,6 +59,7 @@ a:visited{
 	text-decoration: none;
 	cursor:url('accessories/rock.cur'), auto;
 }
+
 
 /*NAV*/
 
@@ -73,6 +73,13 @@ a:visited{
 	border-color: #000000;
 	border-style: solid;
  }
+
+ .nav__ul a:hover{
+	color: #ffd91f;
+	cursor:url('accessories/rock.cur'), auto;
+	transition: all .2s;
+}
+
 
 .nav__li{
 	display:inline-block;
@@ -94,6 +101,13 @@ a:visited{
 	border-color: #000000;
 	border-style: solid;
 }
+
+.nav__ul-responsive a:hover{
+	color: #ffd91f;
+	cursor:url('accessories/rock.cur'), auto;
+	transition: all .2s;
+}
+
 
 .nav__li-responsive{
 	display:flex;
@@ -135,6 +149,12 @@ a:visited{
 .lateral a{
 	font-family: 'Bebas Neue', sans-serif;
 	padding: 5%;
+}
+
+.lateral a:hover{
+	color: #ffd91f;
+	cursor:url('accessories/rock.cur'), auto;
+	transition: all .2s;
 }
 
 /*IMG*/
