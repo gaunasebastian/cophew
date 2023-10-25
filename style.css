@@ -1,5 +1,10 @@
 /*GENERAL SETTINGS*/
 
+@font-face {
+	font-family: "tip";
+	src: url("accessories/tip.otf");
+  }
+
 *{
 	list-style: none;
 }
@@ -14,7 +19,8 @@ div{
 }
 
 h2{
-	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'tip';
+    letter-spacing: .2em;
 	color: #ffd91f;
 	padding: 0 0 5% 0;
 }
@@ -23,7 +29,8 @@ h3{
 	display:block;
 	padding: 40px 10px 0 10px;
 	color: #ffd91f;
-	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'tip';
+	letter-spacing: .2em;
 	font-size: 2.5em;
 	line-height: 1.5;
 	justify-content: center;
@@ -60,6 +67,11 @@ a:visited{
 	cursor:url('accessories/rock.cur'), auto;
 }
 
+a:visited:hover{
+	color: #ffd91f;
+	cursor:url('accessories/rock.cur'), auto;
+	transition: all .2s;
+}
 
 /*NAV*/
 
@@ -140,14 +152,16 @@ a:visited{
 	flex-direction: column;
 	border-radius: 0 0 2% 2%;
     background: rgb(96, 86, 187);
-	right: 5%;
+	right: 3.5%;
     top:0;
     user-select: none;
 	padding: 2% 2.5%;
 }
 
 .lateral a{
-	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'tip';
+	font-size: 10px;
+    letter-spacing: .1em;
 	padding: 5%;
 }
 
@@ -173,31 +187,30 @@ a:visited{
 /*POST-IMG*/
 .c-table{ 
 		display: grid;
-		grid-template-columns: repeat(8, 0.6em);
+		grid-template-columns: repeat(5, 20%);
 		grid-template-areas:
-		"a b c d e f g h"
-		"a b c d e f g h";
-		text-align: left;
+		"a b c d e"
+		"a b c d e";
 		justify-content: space-around;
 		padding: 40px 0 10px 0;
 }
 
 .table__row_1{
-	grid-area: d;
-	font-family: 'Bebas Neue', sans-serif;
+	grid-area: b;
+	font-family: 'tip';
+	letter-spacing: .2em;
 	align-self: center;
 	justify-self: center;
-	font-size: 5 px;
 	letter-spacing: .02em;
 	line-height: 1.5;	
 }
 
 .table__row_2{
-	grid-area: e;
-	font-family: 'Bebas Neue', sans-serif;
+	grid-area: d;
+	font-family: 'tip';
+	letter-spacing: .2em;
 	align-self: center;
 	justify-self: center;
-	font-size: 5 px;
 	letter-spacing: .02em;
 	line-height: 1.5;	
 }
@@ -216,7 +229,8 @@ a:visited{
 	list-style: none;
 	display: block;
 	text-align: left;
-	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'tip';
+	letter-spacing: .2em;
 	font-size: 1.3em;
 	color: #ffffff;
 	line-height: 1.5;
@@ -269,7 +283,7 @@ footer{
 	color: #ffffff;
 	background-color: #1c0504;
 	text-align: left;
-	padding: 3%;
+	padding: 45px;
 	margin:  2%;
 	border-radius: 35px 0px 35px 0px;
 	-moz-border-radius: 35px 0px 35px 0px;
