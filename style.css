@@ -150,7 +150,7 @@ a:visited:hover{
 	flex-shrink: 0;
 	flex-direction: column;
 	border-radius: 0 0 2% 2%;
-    background: rgb(96, 86, 187);
+    background: rgb(40, 28, 151);
 	right: 3.5%;
     top:0;
     user-select: none;
@@ -187,32 +187,27 @@ a:visited:hover{
 /*POST-IMG*/
 .c-table{ 
 		display: grid;
-		grid-template-columns: repeat(5, 20%);
+		grid-template-columns: repeat(7, 11.1%);
 		grid-template-areas:
-		"a b c d e"
-		"a b c d e";
+		"a b c d e f g";
+		font-family: 'tip';
+		font-size: 20px;
+		letter-spacing: .15em;
+		line-height: 1.5;	
+		text-align: center;
+		align-self: center;
+		justify-self: center;
 		justify-content: space-around;
 		padding: 40px 0 10px 0;
 }
 
 .table__row_1{
-	grid-area: b;
-	font-family: 'tip';
-	letter-spacing: .2em;
-	align-self: center;
-	justify-self: center;
-	letter-spacing: .02em;
-	line-height: 1.5;	
+	grid-area: c;
+
 }
 
 .table__row_2{
-	grid-area: d;
-	font-family: 'tip';
-	letter-spacing: .2em;
-	align-self: center;
-	justify-self: center;
-	letter-spacing: .02em;
-	line-height: 1.5;	
+	grid-area: e;
 }
 
 /*SPOTIFY-WEB-PLAYER*/
