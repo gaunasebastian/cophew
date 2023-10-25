@@ -145,7 +145,6 @@ a:visited:hover{
 	display: flex;
     position: fixed;
 	align-items: stretch;
-	text-align: left;
 	line-height: 25px;
 	flex-basis: 50%;
 	flex-shrink: 0;
@@ -155,14 +154,15 @@ a:visited:hover{
 	right: 3.5%;
     top:0;
     user-select: none;
-	padding: 2% 2.5%;
+	padding: 12px;
 }
 
 .lateral a{
 	font-family: 'tip';
-	font-size: 10px;
+	font-size: 14px;
+	text-align: center;
     letter-spacing: .1em;
-	padding: 5%;
+	padding: 3%;
 }
 
 .lateral a:hover{
