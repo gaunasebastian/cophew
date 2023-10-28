@@ -14,9 +14,6 @@
 	color: #ffd91f;
 }
 
-div{
-	background-color: #000000;
-}
 
 h2{
 	font-family: 'tip';
@@ -58,7 +55,7 @@ a:link{
 a:hover{
 	color: #ffd91f;
 	cursor:url('accessories/rock.cur'), auto;
-	transition: all .2s;
+	transition: .3s ease all;
 }
 
 a:visited{
@@ -70,12 +67,13 @@ a:visited{
 a:visited:hover{
 	color: #ffd91f;
 	cursor:url('accessories/rock.cur'), auto;
-	transition: all .2s;
+	transition: .3s ease all;
 }
 
 /*NAV*/
 
 .nav__ul{
+	background-color: #000;
 	display:flex;
 	object-fit:contain;
 	justify-content: center;
@@ -89,7 +87,7 @@ a:visited:hover{
  .nav__ul a:hover{
 	color: #ffd91f;
 	cursor:url('accessories/rock.cur'), auto;
-	transition: all .2s;
+	transition: .3s ease all;
 }
 
 
@@ -122,6 +120,7 @@ a:visited:hover{
 
 
 .nav__li-responsive{
+	background-color: #b62f09;
 	display:flex;
 	text-align: left;
 	font-family: 'Rubik Moonrocks', cursive;
@@ -174,6 +173,7 @@ a:visited:hover{
 /*IMG*/
 
 .img-1{ 
+		background-color: #000000;
 		background-image: url("accessories/gif1.gif");
 		background-position-x: center;
 		background-repeat: no-repeat;
@@ -186,6 +186,7 @@ a:visited:hover{
 
 /*POST-IMG*/
 .c-table{ 
+		background-color: #000000;
 		display: grid;
 		grid-template-columns: repeat(7, 11.1%);
 		grid-template-areas:
@@ -221,6 +222,7 @@ a:visited:hover{
 /*LETRAS*/
 
 .c-article__section-2{
+	background-color: #000000;
 	list-style: none;
 	display: block;
 	text-align: left;
@@ -259,6 +261,7 @@ footer{
 /*FLEX*/
 
 .flex-container{
+	background-color: #000000;
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
@@ -266,6 +269,7 @@ footer{
 }
 
 .flex-container-3{
+	background-color: #000000;
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
@@ -287,6 +291,7 @@ footer{
 }
 
 .flex-container-2{
+	background-color: #000000;
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -327,4 +332,90 @@ footer{
 	text-align: left;
 	line-height: 1.5;
 	color: #ffffff;
+}
+
+.aviso-cookies {
+	display: none;
+	position: fixed;
+	color:#fff;
+	background-color: #b62f09 ;
+	padding: 20px;
+	width: calc(100% - 40px);
+	max-width: 300px;
+	line-height: 150%;
+	border-radius: 10px;
+	bottom: 20px;
+	left: 20px;
+	z-index: 100;
+	padding-top: 60px;
+	box-shadow: 0 2px 20px 10px rgba(222,222,222,.25);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.aviso-cookies.activo{
+	display: block;
+}
+
+.aviso-cookies .galleta{
+	max-width: 250px;
+	position: absolute;
+	top: -60px;
+	left: calc(50% - 50px);
+}
+
+.aviso-cookies .titulo{
+	color:#fff;
+}
+.aviso-cookies .parrafo{
+	margin-bottom: 23px; 
+}
+
+.aviso-cookies .boton {
+	color:#c9975a;
+	width: 100%;
+	background-color: #6c4c2c;
+	border: 5px outset white;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 15px 20px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 14px;
+
+}
+
+.aviso-cookies .boton:hover {
+	background-color:#000000;
+	color:#fff;
+	cursor:url('accessories/rock.cur'), auto;
+}
+
+.aviso-cookies .enlace {
+	color: #ffd91f;
+	font-size: 12px;
+	cursor:url('accessories/rock.cur'), auto;
+}
+
+.aviso-cookies .enlace:hover {
+	text-decoration: underline;
+}
+
+.fondo-aviso-cookies{
+	display:none;
+	background-color: rgba(0,0,0, .9);
+	position: fixed;
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left:0;
+
+}
+
+.fondo-aviso-cookies.activo{
+	display:block;
 }
