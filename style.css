@@ -173,15 +173,17 @@ a:visited:hover{
 /*IMG*/
 
 .img-1{ 
-		background-color: #000000;
+
+		background-color: #6860C1;
 		background-image: url("accessories/gif1.gif");
-		background-position-x: center;
+		background-position: center;
 		background-repeat: no-repeat;
+		background-size: contain;
 		height: 12.5em;
 		user-select: none;
-		display:flex;
-		object-fit:contain;
-	    justify-content: center;
+		display: flex;
+		justify-content: center;
+		align-items: center; /* Agregado para centrar verticalmente el contenido */
 }
 
 /*POST-IMG*/
